@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .logo{
+            border: 4px solid #4b6cc1;
+        }
+        .sm-logo{
+            margin: 50px;
+            margin-top: 20%;
+        }
+        h1{
+            font-size: 6rem;
+        }
+        p{
+           color: #9aa5b1; 
+           font-size: 3rem;
+        }
+        button{
+            background-color: #4b6cc1;
+            border: none;
+            font-size: 2rem;
+        }
+        a{
+            text-decoration: none;
+        }
+      
+    </style>
+</head>
+<body class="bg-dark">
+    <!-- Small and ExtraSmall -->
+    <div class=" d-md-none d-sm-block d-xs-block">
+        <nav class=" navbar navbar-expand-lg bg-white">
+            <div class="container-fluid bg-secondary py-3">
+                <h1 class="logo text-white px-5 py-3">J.</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class=" nav-item">
+                    <a class="t-color nav-link active pe-5 text-white" aria-current="page" href="#"><h3>Home</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="t-color nav-link pe-5 text-white" href="#"><h3>About me</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="t-color nav-link pe-5 text-white" href="#"><h3>Projects</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="t-color nav-link text-white" aria-disabled="true"><h3>Recent Blogs</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="t-color nav-link text-white" aria-disabled="true"><h3>Testimonial</h3></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div>
+            <img class="sm-logo" src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" alt="logo">
+            <h1 class="text-white pb-5 ms-4">Hey, I am <span class="text-primary">Jenny</span></h1>
+            <p class="ms-4">I am a Frontend Developer & Mentor.</p>
+            <button class="text-white rounded-2 px-5 py-3 ms-4 mb-5">Contact Me</button>
+          </div>
+
+    </div>
+    <!-- Mid -->
+    <div class="d-sm-none d-lg-none d-md-block">
+        <nav class=" navbar navbar-expand-lg bg-white">
+            <div class="container-fluid bg-secondary py-3">
+                <h1 class="logo text-white px-5 py-3">J.</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class=" nav-item">
+                    <a class="t-color nav-link active pe-5 text-white" aria-current="page" href="#"><h3>Home</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="t-color nav-link pe-5 text-white" href="#"><h3>About me</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="t-color nav-link pe-5 text-white" href="#"><h3>Projects</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="t-color nav-link text-white" aria-disabled="true"><h3>Recent Blogs</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="t-color nav-link text-white" aria-disabled="true"><h3>Testimonial</h3></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="container mt-5">
+            <div class="row">
+                <div class="col-8">
+                    <h1 class="text-white pb-5 ms-4" style="font-size: 3rem;">Hey, I am <span class="text-primary">Jenny</span></h1>
+                    <p class="ms-4" style="font-size: 1.6rem;">I am a Frontend Developer & Mentor.</p>
+                    <button class="text-white rounded-2 px-5 py-3 ms-4" style="font-size: 1.4rem;">Contact Me</button>
+                </div>
+                <div class="col-4">
+                    <img style="height: 200px; width: 200px;" class="mt-5"  src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Large -->
+    <div class="d-none d-lg-block d-xl-block">
+      <div style="display: flex; justify-content: space-between; background-color: gray;">
+        <div>
+            <h1 class="logo text-white px-5 py-3 bg-secondary m-3">J.</h1>
+        </div>
+        <div style="display: flex;">
+                <a class="pe-5 text-white mt-5" href="#"><h3>Home</h3></a>
+            
+                <a class="pe-5 text-white mt-5" href="#"><h3>About me</h3></a>
+            
+                <a class="text-white pe-5 mt-5" href="#"><h3>Recent Blogs</h3></a>
+             
+                <a class="text-white pe-5 mt-5" href="#"><h3>Testimonial</h3></a>
+        </div>
+            </div>  
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-8">
+                        <h1 class="text-white pb-5 ms-4" style="font-size: 6rem;">Hey, I am <span class="text-primary">Jenny</span></h1>
+                        <p class="ms-4" style="font-size: 3rem;">I am a Frontend Developer & Mentor.</p>
+                        <button class="text-white rounded-2 px-5 py-3 ms-4 mb-5" style="font-size: 2rem;">Contact Me</button>
+                    </div>
+                    <div class="col-4">
+                        <img style="height: 400px; width: 400px;" class="mt-5"  src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>         
+
+</body>
+</html>
+
